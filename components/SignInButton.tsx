@@ -6,7 +6,7 @@ const SignInButton: React.FC = () => {
   const { signInWithGoogle, signInWithGitHub, signInWithFacebook } = useAuth();
 
   return (
-    <div className="flex flex-col space-y-4">
+    <div className="flex flex-col space-y-4 gap-2">
       <button
         onClick={signInWithGoogle}
         className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-300"
